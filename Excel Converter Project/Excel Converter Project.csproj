@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Excel_Converter_Project</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Excel_Converter_Project.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Cells" Version="23.7.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.51" />
+    <PackageReference Include="IronXL.Excel" Version="2023.8.19" />
+  </ItemGroup>
+
+</Project>
